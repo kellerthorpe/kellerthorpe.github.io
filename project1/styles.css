@@ -1,0 +1,94 @@
+body { background-color: #6699ff;
+      background-image: url(assets/gradientblue.jpg);
+      color: #d6e3ff;
+	  font-family: Arial, sans-serif;
+}
+#wrapper { width: 80%;
+          margin-right: auto;
+		  margin-left: auto;
+		  min-width: 700px;
+		  max-width: 1024px;
+		  background-color: #fff;
+		  color: #000066;
+		  border-radius: 15px;
+		 padding-right: 1.5em;
+		padding-left: 1.5em; 
+}
+hr { border-color: #003366;  }
+header { background-color: #fff;
+       color: #000;
+	   background-image: url(assets/pets.jpg);
+	   background-position: center top;
+	   background-repeat: no-repeat;
+	   height: 350px;
+	   background-color: #fff;
+	   border-radius: 15px 15px 0 0;
+}
+h1 { text-align: center;
+	color: #003366;
+     font-size: 3em;    
+     padding-top: 285px;
+	 text-shadow: 3px 3px 3px #CCCCCC;
+}
+nav { font-weight: bold; 
+	 float: left;
+	 width: 150px;
+	 font-size: 1.2em;
+}
+nav ul { 	list-style-type: none; 
+			padding-left: 0;}
+nav a { text-decoration: none; }
+nav a:link { color: #2337cc; }
+nav a:visited { color: #2e4679; }
+nav a:hover { color: #CCCCCC; }
+.category { font-weight: bold;
+            color: #003366;
+			font-size: 1.2em;
+}
+dd {		padding-bottom: 15px;}
+main li { 	padding-top: 15px;}			
+main { 		margin-left: 180px;     		
+	  		margin-right: 17.5em;			
+}
+img { 		border-style: none; }
+footer { 	font-size: 0.70em;
+       		font-style: italic;
+	   		padding: 10px;
+	   		margin-left: 180px;
+}
+footer nav { text-align: left; }
+header, main, nav, footer { display: block; }
+aside { width: 15em; 
+		margin-bottom: 30em; 
+		padding: 0 5px 1em 1.3em; 
+		float: right;
+		background-color: #f4f1f1 }
+aside img { float: left; padding: 0 8px 8px 0;}
+aside p { clear: both; padding-top: 8px;}
+aside a { text-decoration: none; }
+aside a:link { color: #2337cc; }
+aside a:visited { color: #2e4679; }
+aside a:hover { color: #CCCCCC; }
+/* form styles */
+label { float: left;
+      	display: block;
+	  	text-align: right;
+	  	width: 10em;
+	  	padding-right: 0.5em;
+}
+input, textarea { display: block;
+              margin-bottom: 1em;
+              width: 20em;
+}
+textarea { width: 29em;}
+input { font-size: 1em; }
+#mySubmit { margin-left: 10.5em; width: 30em; padding: 0;}
+input[type="submit"] {
+   display: block;
+   background: #0dd39d;
+   color: #0059fc;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 4px;
+   cursor: pointer;
+ }
