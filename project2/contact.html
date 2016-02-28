@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Animal Clinic &amp; Pet Resort</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=80%">
+<link rel="stylesheet" href="styles.css">
+<!--[if lt IE 9]>
+<script src=" http://html5shim.googlecode.com/svn/trunk/html5.js ">
+</script>
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+<header><h1>Animal Clinic &amp; Pet Resort</h1></header>
+<hr>
+
+<nav>
+<ul>
+ <li><a href="index.html">Home</a></li>
+ <li><a href="services/services.html">Services</a></li>
+ <li><a href="askvet.html">Ask the Vet</a></li>
+ <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<main>
+<h2>Contact Animal Clinic &amp; Pet Resort</h2>
+<form method="POST" id="myForm"
+action="http://webdevbasics.net/scripts/demo.php">
+
+<label for="userName">*Your Name:</label>
+<input type="text" id="userName" name="userName" required="required">
+<label for="userEmail">*E-mail:</label>
+<input type="email" id="userEmail" name="userEmail" required="required">
+<!-- pet's name -->
+<label for="petName">Pet's Name:</label>
+<input type="text" id="petName" name="petName">
+<!-- pet's age -->
+<label for="petAge">Pet's Age:</label>
+<input type="number" id="petAge" name="petName">
+<label for="question">Question for the Vet:</label>
+<textarea id="question" name="question" rows="5" cols="50"></textarea>
+<div id="mySubmit">
+<input type="submit" value="Send Now">
+</div>
+</form>
+</main>
+<footer>
+Copyright &copy; 2016 Animal Clinic & Pet Resort<br>
+<a href="contact.html">Contact Us</a>
+</footer>
+</div>
+</body>
+</html>
