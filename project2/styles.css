@@ -2,13 +2,14 @@ body { background-color: #6699ff;
       background-image: url(assets/gradientblue.jpg);
       color: #d6e3ff;
 	  font-family: Arial, sans-serif;
+ /*     font-size: 100%;*/
 }
 
 /* smaller devices */
 @media only screen and (max-width: 37.5em) {
 #wrapper { width: 90%;
-          margin-right: 5%;
-	  margin-left: 5%;
+          margin-right: auto;
+	  margin-left: auto;
 	  max-width: 37.5em;
 	  background-color: #fff;
 	  color: #000066;
@@ -16,7 +17,6 @@ body { background-color: #6699ff;
 	  padding-right: 1em;
 	  padding-left: 1em; 
 }
-* {font-size: 100%;}
 hr { border-color: #003366;  }
 header { background-color: #fff;
        color: #000;
@@ -56,6 +56,9 @@ dd {		padding-bottom: 15px;}
 main li { 	padding-top: 15px;}			
 main { 		margin-left: 1.5em;     		
 	  	margin-right: 1.5em;			
+}
+#mainaskvet { margin-left: 0em;
+        margin-right:0em;
 }
 img { 	border-style: none;}
 footer { 	font-size: 0.70em;
@@ -126,7 +129,7 @@ header { background-color: #fff;
 h1 { text-align: center;
 	color: #003366;
      font-size: 2.5em;    
-     padding-top: 285px;    /* Problematic because this needs to be flexible, relative to the header */
+     padding-top: 285px;
 	 text-shadow: 3px 3px 3px #CCCCCC;
 }
 nav { font-weight: bold; 
@@ -184,7 +187,7 @@ input, textarea { display: block;
 }
 textarea { width: 29em;}
 input { font-size: 1em; }
-#mySubmit { margin-left: 10.5em; width: 30em; padding: 0;}
+#mySubmit { margin-left: 10.5; width: 50%; padding: 0;}
 input[type="submit"] {
    display: block;
    background: #0dd39d;
