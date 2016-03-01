@@ -40,7 +40,8 @@ nav { font-weight: bold;
 nav ul { 	list-style-type: none; 
         text-align: center;
 		padding-left: 0;}
-nav a { text-decoration: none;}
+nav a { text-decoration: none; 
+        padding: .5em; }
 nav a:link { color: #2337cc; }
 nav a:visited { color: #2e4679; }
 nav a:hover { color: #CCCCCC; }
@@ -49,7 +50,6 @@ nav a:hover { color: #CCCCCC; }
 			font-size: 1.2em;
 }
 nav li {display: inline;
-        padding: .2em; 
 }
 dd {		padding-bottom: 15px;}
 main li { 	padding-top: 15px;}			
