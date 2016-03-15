@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hyde Park Tea Room ~ Reservation Request</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  
+  <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<!-- top section -->
+<div class="header">
+<div class="container">
+	<div class="row">
+		<div class="three columns">
+			<p class="logo">Hyde Park Tea Room</p>
+		</div>
+		<div class="nine columns">
+			<a class="button" href="index.html">Index</a>
+			<a class="button" href="about.html">About Us</a>
+			<a class="button" href="menu.html">Menu</a>
+			<a class="button" href="reservations.html">Reservations</a>
+			<a class="button" href="events.html">Events</a>
+			<a class="button" href="contact.html">Contact Us</a>
+		</div>
+	</div>
+	<div class="row action">
+		<h1>Reservation Requests</h1>
+	</div>
+</div>
+</div>
+<!-- info section -->
+<div class="container" id="top">
+  <div class="row">
+  	<div class="twelve columns">
+  		<p>We recommend reservations during lunch hours. For fastest confirmation of a reservation, please call (484)555-1212 between our opening hours of 10am and 5pm. When using the online reservation request form, we will respond within 24 hours to confirm. Information marked with an asterisk is required.</p>
+  	</div>
+  </div>
+  <form method="post" action="mailto:kellerthorpe@mail.dccc.edu" enctype="text/plain">
+  <div class="row">
+    <div class="four columns">
+      <label for="name">Name:*</label>
+    </div>
+    <div class="eight columns">
+	  <input type="text" name="name" id="name" required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="four columns">
+      <label for="phone">Telephone number:</label>
+    </div>
+    <div class="eight columns">
+	  <input type="text" name="phone" id="phone">
+    </div>
+  </div>
+  <div class="row">
+    <div class="four columns">
+      <label for="email">Email address:*</label>
+    </div>
+    <div class="eight columns">
+	  <input type="text" name="email" id="email" required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="four columns">
+      <label for="date">Date:*</label>
+    </div>
+    <div class="eight columns">
+	  <input type="date" name="res_date" id="res_date" required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="four columns">
+      <label for="time">Time:*</label>
+    </div>
+    <div class="eight columns">
+	    <select id="times" required>
+	      <option value="10am">10 a.m.</option>
+	      <option value="1030am">10:30 a.m.</option>
+	      <option value="11am">11 a.m.</option>
+	      <option value="1130am">11:30 a.m.</option>
+	      <option value="12pm">12 p.m.</option>
+	      <option value="1230pm">12:30 p.m</option>
+	      <option value="1pm">1 p.m.</option>
+	      <option value="130pm">1:30 p.m.</option>
+	      <option value="2pm">2 p.m.</option>
+	      <option value="230pm">2:30 p.m.</option>
+	      <option value="3pm">3 p.m.</option>
+	      <option value="330pm">3:30 p.m.</option>
+	      <option value="4pm">4 p.m.</option>
+	    </select>
+    </div>
+  </div>
+  
+<input type="submit" value="Submit">
+<input type="reset">
+  
+</form>
+</div>
+
+<!-- need submit and reset buttons down here -->
+
+<div class="container quote">
+	<div class="row">
+		<div class="twelve colums">
+			<p>"One day I decided to try to have a complete day without tea. I was quite shaken. I was quite disturbed."<br>
+			<span class="cite">~Morrissey</span></p>
+		</div>
+	</div>
+</div>
+<!-- footer 
+<div class="container">
+  <div class="row">
+    <div class="eight columns">
+      <p>© My Company, 2015. My Company is a registered trademark of His Company, which is a wholly owned subsidiary of Her Company. Any similarity to existing web sites is purely coincidence.</p>
+    </div>
+    <div class="four columns">
+      <form>
+        <label for="exampleEmailInput">Sign up for our newsletter</label>
+        <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+        <input class="button-primary" type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div> -->
+
+</body>
+</html>
