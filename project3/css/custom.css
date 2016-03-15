@@ -1,17 +1,113 @@
-<!DOCTYPE html>
+/* Mobile first queries */
+/* applies to ALL widths */
 
-<html lang="en">
+body {
+	font-family: 'Courgette', cursive;
+	background-color: snow;
+}
+.header {
+	padding-top: 3em;
+}
+.item {
+	font-weight: bold;
+}
+ul {
+	list-style: none;
+	line-height: 1;
+}
+h1 {
+	text-align: center;
+	font-size: 3rem;
+	color: snow;
+	text-shadow: 2px 2px #202020;
+}
+.button {
+	background-color: snow;
+	width: 48%;
+}
+.quote {
+	color: #a11c31;
+	font-style: italic;
+}
+.cite {
+	margin-left: 5em;
+}
+.icon { 
+	width: 60px;
+}
+.logo {
+	background-color: #a11c31;
+	color: snow;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding-left: 5px;
+	z-index: 100;
+}
+label {
+	font-weight: normal;
+}
+#top {
+	padding-top: 1em;
+}
+.header {
+	background-image: url(../images/afternoon_tea_small.jpg);
+	background-size: cover;
+}
 
-<head>
+/* Larger than mobile */
+/* applies to all widths 400px and greater */
 
-<title> Enter Descriptive Title Here</title>
+@media (min-width: 400px) {
+}
 
-<meta charset="utf--8">
 
-</head>
-	
-<body>
+/* Larger than phablet */
+/* applies to all widths 550px and greater */
 
-</body>
+@media (min-width: 550px) {
 
-</html>
+}
+
+
+
+/* Larger than tablet */
+/* applies to all widths 750px and greater */
+
+@media (min-width: 750px) {
+.button {
+	width: 29%;
+}
+.logo {
+	position: static;
+	background-color: transparent;
+	color: black;
+	font-size: 2.5rem;
+}
+h1 {font-size: 3.5rem;}
+.header {
+	background-image: url(../images/afternoon_tea.jpg);
+	background-size: cover;
+}
+}
+
+
+/* Larger than desktop */
+/* applies to all widths 100px and greater */
+
+@media (min-width: 1000px) {
+.logo {
+	font-size: 3.5rem;
+}
+h1 {font-size: 4rem;}
+}
+
+
+
+/* Larger than Desktop HD */
+/* applies to 1200px and greater */
+
+@media (min-width: 1200px) {
+
+}
