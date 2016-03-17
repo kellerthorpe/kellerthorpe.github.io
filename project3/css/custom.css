@@ -70,9 +70,6 @@ label {
 /* applies to all widths 550px and greater */
 
 @media (min-width: 550px) {
-.button {
-	width: 29%;
-}
 .logo {
 	position: static;
 	background-color: transparent;
@@ -92,8 +89,9 @@ h1 {font-size: 3.5rem;}
 
 @media (min-width: 750px) {
 .button {
-	width: auto;
+	width: 29%;
 }
+
 .header {
 	background-image: url(../images/afternoon_tea.jpg);
 	background-size: cover;
@@ -106,6 +104,10 @@ h1 {font-size: 3.5rem;}
 /* applies to all widths 100px and greater */
 
 @media (min-width: 1000px) {
+.button {
+	width: auto;
+}
+
 .logo {
 	font-size: 3.5rem;
 }
