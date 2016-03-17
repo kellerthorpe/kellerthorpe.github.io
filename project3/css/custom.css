@@ -56,8 +56,14 @@ label {
 	background-size: cover;
 }
 .field {
-	width: 100%;
+	width: 70%;
 }
+#footer {
+	padding-top: 2em;
+	font-size: smaller;
+}
+
+
 
 /* Larger than mobile */
 /* applies to all widths 400px and greater */
@@ -77,9 +83,7 @@ label {
 	font-size: 2.5rem;
 }
 h1 {font-size: 3.5rem;}
-}
-.field {
-	width: 60%
+.field {width: 60%;}
 }
 
 
@@ -88,15 +92,11 @@ h1 {font-size: 3.5rem;}
 /* applies to all widths 750px and greater */
 
 @media (min-width: 750px) {
-.button {
-	width: 29%;
-}
-
+.button {width: 29%;}
 .header {
 	background-image: url(../images/afternoon_tea.jpg);
 	background-size: cover;
 }
-
 }
 
 
@@ -104,17 +104,11 @@ h1 {font-size: 3.5rem;}
 /* applies to all widths 100px and greater */
 
 @media (min-width: 1000px) {
-.button {
-	width: auto;
-}
-
-.logo {
-	font-size: 3.5rem;
-}
+.button {width: auto;}
+.logo {font-size: 3.5rem;}
 h1 {font-size: 4rem;}
-}
-.field {
-	width: 50%
+.field {width: 50%;}
+#footer {padding-top: 3em;}
 }
 
 
