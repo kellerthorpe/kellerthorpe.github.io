@@ -11,4 +11,13 @@ body, html {
             margin-right: auto;
             padding: 2em;
             margin-top: 0px;
-            }
+ }
+
+hr {
+    margin-bottom: 1.5em;
+}
+
+li {
+    padding-bottom: 1.5em;
+    list-style-type: none;
+}
