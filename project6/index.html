@@ -1,1 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hyde Park Tea Room</title>
 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+
+<style>
+	.footer {font-size: smaller;}
+	ul {list-style-type: none;}
+	.label {font-style: italic;}
+	.quote {font-style: italic;
+			color: #900d1f;}
+	body {font-family: Courgette, serif;}
+	h2 {text-align: center;}
+	
+	.white {/*background-color: snow;*/
+			color: #900d1f;
+			padding: .3em .2em;
+			height: auto;}
+	.pink {/*background-color: #FEE8EB;*/
+			padding: .3em .2em;
+			height: auto;}
+	/*
+	 * #F7A2AE
+	 */
+</style>
+
+</head>
+
+<body>
+<div data-role="page" id="index">
+	<div data-role="header" data-position="fixed">
+		<h1>Hyde Park Tea Room</h1>
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#index" data-icon="home" data-transition="fade">Home</a></li>
+			<li><a href="#about" data-icon="heart" data-transition="fade">About Us</a></li>
+			<li><a href="#events" data-icon="heart" data-transition="fade">Events</a></li>
+			<li><a href="#contact" data-icon="location" data-transition="fade">Contact</a></li>
+			</ul>
+		</div>
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#menu" data-icon="heart" data-transition="fade">Menu</a></li>
+			<li><a href="#reservations" data-icon="calendar" data-transition="fade">Reservations</a></li>
+			</ul>
+		</div>
+	</div>
+	<div data-role="content">
+	
+		<p>Welcome to Hyde Park Tea Room in historic downtown West Chester. Come in and enjoy a cup of tea, a light snack, or a leisurely full afternoon tea. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.</p>
+		<ul>
+			<li class="label">Address:</li>
+			<li> &nbsp; &nbsp; 1234 High Street</li>
+			<li> &nbsp; &nbsp; West Chester, PA 19382</li>
+			<li class="label">Telephone:</li>
+			<li> &nbsp; &nbsp; (484)555-1212</li>
+			<br>
+			<li class="label">Hours:</li>
+			<li> &nbsp; &nbsp; 10 a.m. to 5 p.m. daily</li>
+		</ul>
+		<br>
+	
+		<p class="quote">"Never turn down tea if it's offered. It's impolite, and that's how wars start."<br>
+			<span>~The Eighth Doctor</span></p>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<p class="footer">© 2016 Hyde Park Tea Room</p>
+	</div>
+</div>
+
+
+<!-- About Us Page -->
+
+
+<div data-role="page" id="about">
+	<div data-role="header" data-position="fixed">
+		<h1>Hyde Park Tea Room</h1>
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#index" data-icon="home" data-transition="fade">Home</a></li>
+			<li><a href="#about" data-icon="heart" data-transition="fade">About Us</a></li>
+			<li><a href="#events" data-icon="heart" data-transition="fade">Events</a></li>
+			<li><a href="#contact" data-icon="location" data-transition="fade">Contact</a></li>
+			</ul>
+		</div>
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#menu" data-icon="heart" data-transition="fade">Menu</a></li>
+			<li><a href="#reservations" data-icon="calendar" data-transition="fade">Reservations</a></li>
+			</ul>
+		</div>
+	</div>
+	<div data-role="content">
+		<h2>About Us</h2>
+		<p>The Hyde Park Tea Room, located in historic West Chester, offers tea and lunch from 10 a.m. to 5 p.m. daily. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint  occaecat cupidatat non proident, sunt in culpa qui officia deserunt  mollit anim id est laborum.</p><br>
+		<img src="images/tea_and_fruit.jpg" alt="tea and fruit" width="75%">
+		<br><br>
+		<p class="quote">"You can't buy happiness, but you can buy tea, and that's kind of the same thing."<br>
+				<span>~Anonymous</span></p>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<p class="footer">© 2016 Hyde Park Tea Room</p>
+	</div>
+</div>
+
+
+<!-- Events Page -->
+
+
+<div data-role="page" id="events">
+	<div data-role="header" data-position="fixed">
+		<h1>Hyde Park Tea Room</h1>
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#index" data-icon="home" data-transition="fade">Home</a></li>
+			<li><a href="#about" data-icon="heart" data-transition="fade">About Us</a></li>
+			<li><a href="#events" data-icon="heart" data-transition="fade">Events</a></li>
+			<li><a href="#contact" data-icon="location" data-transition="fade">Contact</a></li>
+			</ul>
+		</div>
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#menu" data-icon="heart" data-transition="fade">Menu</a></li>
+			<li><a href="#reservations" data-icon="calendar" data-transition="fade">Reservations</a></li>
+			</ul>
+		</div>
+	</div>
+	<div data-role="content">
+		<h2>Events</h2>
+		<p>Tea and company go together, so please join us in one of our frequent social events.</p>
+		<div class="ui-grid-a">
+			<div class="ui-block-a pink">Book Club<br><br>First and third Tuesdays at 1 p.m.</div>
+			<div class="ui-block-b white">Every two weeks, we gather to discuss a different book related to tea or other culinary ventures. The next book is <i>The Traveling Tea Shop</i> by Belinda Jones. Feel free to attend even if you have not finished the book.</div>
+			<div class="ui-block-a white">Knitting Circle<br><br>Every Thursday at 2 p.m.</div>
+			<div class="ui-block-b pink">We gather weekly to have a cup of tea and knit, crochet, or engage in any other portable fiber art.</div>
+			<div class="ui-block-a pink">Tea and Talk<br><br>Second Monday at 11 a.m.</div>
+			<div class="ui-block-b white">Enjoy a cup of tea while participating in a discussion circle. Each month we introduce a new topic. Our theme this month is beginning a new garden.</div>
+			<div class="ui-block-a white">Tea Tasting<br><br>Fourth Saturday at 10 a.m.</div>
+			<div class="ui-block-b pink">Our monthly tea tasting is a wonderful opportunity to sample a variety of teas and discover new flavors. Reservations are recommended. (Please visit our <a href="#reservations">reservations</a> page.)</div>
+			
+		</div>
+		<p class="quote">"Come, let us have some tea and continue to talk about happy things."<br>
+			<span>~Chaim Potok</span></p>		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<p class="footer">© 2016 Hyde Park Tea Room</p>
+	</div>
+</div>
+
+
+<!-- Contact Us Page -->
+
+
+<div data-role="page" id="contact">
+	<div data-role="header" data-position="fixed">
+		<h1>Hyde Park Tea Room</h1>
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#index" data-icon="home" data-transition="fade">Home</a></li>
+			<li><a href="#about" data-icon="heart" data-transition="fade">About Us</a></li>
+			<li><a href="#events" data-icon="heart" data-transition="fade">Events</a></li>
+			<li><a href="#contact" data-icon="location" data-transition="fade">Contact</a></li>
+			</ul>
+		</div>
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#menu" data-icon="heart" data-transition="fade">Menu</a></li>
+			<li><a href="#reservations" data-icon="calendar" data-transition="fade">Reservations</a></li>
+			</ul>
+		</div>
+	</div>
+	<div data-role="content">
+		<h2>Contact Us</h2>
+
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<p class="footer">© 2016 Hyde Park Tea Room</p>
+	</div>
+</div>
+
+
+<!-- Menu Page -->
+
+
+<div data-role="page" id="menu">
+	<div data-role="header" data-position="fixed">
+		<h1>Hyde Park Tea Room</h1>
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#index" data-icon="home" data-transition="fade">Home</a></li>
+			<li><a href="#about" data-icon="heart" data-transition="fade">About Us</a></li>
+			<li><a href="#events" data-icon="heart" data-transition="fade">Events</a></li>
+			<li><a href="#contact" data-icon="location" data-transition="fade">Contact</a></li>
+			</ul>
+		</div>
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#menu" data-icon="heart" data-transition="fade">Menu</a></li>
+			<li><a href="#reservations" data-icon="calendar" data-transition="fade">Reservations</a></li>
+			</ul>
+		</div>
+	</div>
+	<div data-role="content">
+		<h2>Our Menu</h2>
+		<div data-role="collapsible">
+			<h3>Full Afternoon Tea</h3>
+			<p>Enjoy a selection of tea sandwiches, scones, and desserts, along with a pot of our finest afternoon tea.</p>
+		</div>
+		<div data-role="collapsible">
+			<h3>Tea</h3>
+			<ul>
+				<li>Black Tea</li>
+				<li>Spiced Chai</li>
+				<li>London Fog</li>
+			</ul>
+		</div>
+		<div data-role="collapsible">
+			<h3>Tea Sandwiches</h3>
+			<ul>
+				<li>Egg and Cress</li>
+		      	<li>Cucumber and Cream Cheese</li>
+		      	<li>Chicken Salad</li>
+		      	<li>Cheddar Cheese and Branston Pickle</li>
+			</ul>
+		</div>
+		<div data-role="collapsible">
+			<h3>Soup</h3>
+			<ul>
+		      	<li>Potato Leek</li>
+		      	<li>Tomato Bisque</li>
+		      	<li>Wild Mushroom</li>
+			</ul>
+		</div>
+		<div data-role="collapsible">
+			<h3>Crustless Mini Quiches</h3>
+			<ul>
+		      	<li>Four Cheese</li>
+		      	<li>Mushroom and Leek</li>
+		      	<li>Garden Vegetable</li>
+		      	<li>Spinach and Gruyere</li>
+			</ul>
+		</div>
+		<div data-role="collapsible">
+			<h3>Scones</h3>
+			<ul>
+		      	<li>Plain Scones</li>
+		      	<li>Currant Scones</li>
+		      	<li>Strawberry Jam</li>
+		      	<li>Clotted Cream</li>
+			</ul>
+		</div>
+		<div data-role="collapsible">
+			<h3>Desserts</h3>
+			<ul>
+		      	<li>Fruit Cup</li>
+		      	<li>Chocolate Cake</li>
+		      	<li>Madeleines</li>
+		      	<li>Fruit Tart</li>
+		      	<li>Profiterole Cream Puffs</li>
+		      	<li>Chocolate Biscotti</li>
+			</ul>
+		</div>
+		<br>
+		<p class="quote">"Come along inside...We'll see if tea and buns can make the world a better place."<br>
+			<span>~Attributed to Kenneth Grahame</span></p>
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<p class="footer">© 2016 Hyde Park Tea Room</p>
+	</div>
+</div>
+
+
+<!-- Reservations Page -->
+
+
+<div data-role="page" id="reservations">
+	<div data-role="header" data-position="fixed">
+		<h1>Hyde Park Tea Room</h1>
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#index" data-icon="home" data-transition="fade">Home</a></li>
+			<li><a href="#about" data-icon="heart" data-transition="fade">About Us</a></li>
+			<li><a href="#events" data-icon="heart" data-transition="fade">Events</a></li>
+			<li><a href="#contact" data-icon="location" data-transition="fade">Contact</a></li>
+			</ul>
+		</div>
+		<div data-role="navbar">
+			<ul>
+			<li><a href="#menu" data-icon="heart" data-transition="fade">Menu</a></li>
+			<li><a href="#reservations" data-icon="calendar" data-transition="fade">Reservations</a></li>
+			</ul>
+		</div>
+	</div>
+	<div data-role="content">
+		<h2>Reservations</h2>
+		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<p class="footer">© 2016 Hyde Park Tea Room</p>
+	</div>
+</div>
+
+
+</body>
+</html>
