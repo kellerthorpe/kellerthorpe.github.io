@@ -19,6 +19,8 @@
 			color: #900d1f;}
 	body {font-family: Courgette, serif;}
 	h2 {text-align: center;}
+	.ui-title {margin: 0.1em !important;}
+	.icon {width: 20%;}
 	
 	.white {/*background-color: snow;*/
 			color: #900d1f;
@@ -179,6 +181,39 @@
 	</div>
 	<div data-role="content">
 		<h2>Contact Us</h2>
+		<p>We welcome any comments or questions you might have. Please contact us via telephone, email, or the form below. Information marked with an asterisk is required. You can also find us on social media. (Links are below.)</p>
+
+		<ul>
+			<li>Address:</li>
+			<li> &nbsp; &nbsp; 1234 High Street</li>
+			<li> &nbsp; &nbsp; West Chester, PA 19382</li>
+			<li>Telephone:</li>
+			<li> &nbsp; &nbsp; (484)555-1212</li>
+		</ul>
+
+	<form method="post" action="mailto:kellerthorpe@mail.dccc.edu" enctype="text/plain">
+		<label for="name">Name:*</label>
+			<input type="text" name="name" id="name" placeholder="Susan Smith" required="required">
+		<label for="phone">Telephone number:</label>
+			<input type="tel" name="phone" id="phone" placeholder="(484)555-5555">
+		<label for="email">Email address:*</label>
+			<input type="email" name="email" id="email" placeholder="ssmith@isp.net" required="required">
+		<label for="comments">Comments:*</label>
+			<textarea name="comments" id="comments" rows="4" cols="30" placeholder="Please leave a comment..." required="required"></textarea>
+		
+		<input type="submit" value="Submit Form">
+		<input type="reset" value="Reset Form">
+		<br>
+	</form>
+	
+  		<a href="https://www.facebook.com/kimberly.ellerthorpe/posts/10208840678596880" target="_blank"><img src="images/fb_icon.png" alt="facebook icon" class="icon"></a> &nbsp; 
+  		<a href="https://www.instagram.com/p/BC7yUU8spri/" target="_blank"><img src="images/ig_icon.png" alt="Instagram icon" class="icon"></a> &nbsp;
+  		<a href="https://www.pinterest.com/kimberlyrose01/afternoon-tea/" target="_blank"><img src="images/p_icon.png" alt="Pinterest icon" class="icon"></a> &nbsp;
+  		<a href="https://twitter.com/LattesAndRain/status/710561184882302976" target="_blank"><img src="images/t_icon.png" alt="Twitter icon" class="icon"></a>
+		<br><br>
+		
+		<p class="quote">"There is no trouble so great or grave that cannot be much diminished by a nice cup of tea."<br>
+			<span>~Bernard-Paul Heroux</span></p>
 
 	</div>
 	<div data-role="footer" data-position="fixed">
@@ -301,6 +336,39 @@
 	</div>
 	<div data-role="content">
 		<h2>Reservations</h2>
+		<p>We recommend reservations during lunch hours. For fastest confirmation of a reservation, please call (484)555-1212 between our opening hours of 10 a.m. and 5 p.m. When using the online reservation request form, we will respond within 24 hours to confirm. Information marked with an asterisk is required.</p>
+		<form method="post" action="mailto:kellerthorpe@mail.dccc.edu" enctype="text/plain">
+			<label for="name">Name:*</label>
+				<input type="text" name="resname" id="resname" placeholder="Susan Smith" required="required">
+			<label for="resphone">Telephone number:</label>
+				<input type="tel" name="resphone" id="resphone" placeholder="(484)555-5555">
+			<label for="resemail">Email address:*</label>
+				<input type="email" name="resemail" id="resemail" placeholder="ssmith@isp.net" required="required">
+			<label for="date">Date:*</label>
+				<input type="text" name="date" id="date" class="field" placeholder="mm-dd-yyyy" required="required">  
+			<label for="time">Time:</label>
+					<select name="times" id="times" required="required">
+					<option value="10am">10 a.m.</option>
+					<option value="1030am">10:30 a.m.</option>
+					<option value="11am">11 a.m.</option>
+					<option value="1130am">11:30 a.m.</option>
+					<option value="12pm">12 p.m.</option>
+					<option value="1230pm">12:30 p.m</option>
+					<option value="1pm">1 p.m.</option>
+					<option value="130pm">1:30 p.m.</option>
+					<option value="2pm">2 p.m.</option>
+					<option value="230pm">2:30 p.m.</option>
+					<option value="3pm">3 p.m.</option>
+					<option value="330pm">3:30 p.m.</option>
+					<option value="4pm">4 p.m.</option>
+				</select><br>
+
+			<input type="submit" value="Submit Form">
+			<input type="reset" value="Reset Form">
+		</form>	
+
+		<p class="quote">"One day I decided to try to have a complete day without tea. I was quite shaken. I was quite disturbed."<br>
+			<span>~Morrissey</span></p>
 		
 	</div>
 	<div data-role="footer" data-position="fixed">
